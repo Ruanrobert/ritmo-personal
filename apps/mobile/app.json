@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Ritmo Aluno",
+    "slug": "ritmo-aluno",
+    "scheme": "ritmoaluno",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "primaryColor": "#37e6aa",
+    "plugins": [
+      "expo-router",
+      "expo-video"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "bundleIdentifier": "com.ritmo.aluno",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ritmo.aluno",
+      "adaptiveIcon": {
+        "backgroundColor": "#07121F",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

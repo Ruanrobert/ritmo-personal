@@ -1,41 +1,41 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
+# Dependencies and package-manager artifacts
+node_modules/
+**/node_modules/
 .pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
 
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
+# Build output
+.next/
+**/.next/
+out/
+dist/
+build/
+coverage/
 *.tsbuildinfo
 next-env.d.ts
+
+# Expo / React Native
+.expo/
+**/.expo/
+web-build/
+expo-env.d.ts
+android/
+ios/
+
+# Local environment files. Keep only the example templates in Git.
+.env*
+**/.env*
+!.env.example
+!**/.env.example
+
+# Local tool output
+.vercel/
+.turbo/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+*.pem
+
+# Android release APK
+*.apk

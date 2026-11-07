@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ritmo — plataforma de personal trainer
 
-## Getting Started
+Base de um produto com painel web para o personal e aplicativo mobile para o aluno.
+O visual segue a referência enviada: interface escura azul-marinho, realces verde-menta
+e azul-claro. O perfil de demonstração usa o nome Ruan.
 
-First, run the development server:
+## Começar
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Instale Node.js 24 e npm 11.
+2. Na raiz, execute `npm install`.
+3. Para o painel web, execute `npm run dev:web` e abra `http://localhost:3000`.
+4. Para o app de aluno, execute `npm run dev:mobile` e abra o QR code no Expo Go.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Consulte [docs/SETUP.md](docs/SETUP.md) para ambiente, variáveis e verificações.
+O status das etapas do MVP está em [PLANO-MVP.md](PLANO-MVP.md).
